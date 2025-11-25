@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --custom-black: #464646 ;
+  --main-color: #cd6c12 ;
+  --main-background: #fdc999 ;
+  --gray1: #fbfbfb ;
+  --gray2: #575757 ;
+}
+
+@theme {
+  --color-custom-black: var(--custom-black) ;
+  --color-main-color: var(--main-color) ;
+  --color-main-background: var(--main-background) ; 
+  --color-gray1: var(--gray1) ; 
+  --color-gray2: var(--gray2) ;
+}
+
+body {
+  background: white ;
+  font-family: Arial, Helvetica, sans-serif;
+}
